@@ -1,7 +1,7 @@
 const axios = require('axios');
 const readlineSync = require('readline-sync');
 
-const apiKey = 'd748989c4ccb81b1e4e4d0da6d40976f';
+const apiKey = API_KEY;
 const baseUrl = 'http://api.openweathermap.org/data/2.5/weather';
 
 const getWeather = async (city) => {
